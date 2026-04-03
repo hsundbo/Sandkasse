@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .prose-content h2 {
+    @apply text-2xl font-bold text-gray-900 mt-8 mb-4;
+  }
+  .prose-content h3 {
+    @apply text-xl font-semibold text-gray-800 mt-6 mb-3;
+  }
+  .prose-content p {
+    @apply text-gray-700 leading-relaxed mb-4;
+  }
+  .prose-content ul {
+    @apply list-disc list-inside space-y-1 mb-4 text-gray-700;
+  }
+  .prose-content li {
+    @apply leading-relaxed;
+  }
+}
