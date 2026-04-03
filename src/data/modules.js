@@ -1,22 +1,22 @@
 export const modules = [
   {
-    id: 'hva-er-ai',
+    id: 'hva-er-ki',
     tittel: 'Hva er kunstig intelligens?',
-    slug: 'hva-er-ai',
-    beskrivelse: 'En introduksjon til AI og dens grunnleggende begreper.',
+    slug: 'hva-er-ki',
+    beskrivelse: 'En introduksjon til KI og dens grunnleggende begreper.',
     estimertTid: '20 min',
     rekkefølge: 1,
     program: ['IM', 'MK'],
     demoId: 'neural-network-viz',
-    quizId: 'quiz-hva-er-ai',
+    quizId: 'quiz-hva-er-ki',
     seksjoner: [
       {
         id: 'intro',
-        tittel: 'Hva er AI egentlig?',
+        tittel: 'Hva er KI egentlig?',
         innhold: [
           {
             type: 'tekst',
-            data: 'Kunstig intelligens (AI) handler om å lage datamaskiner og programmer som kan utføre oppgaver som vanligvis krever menneskelig intelligens. Dette inkluderer å lære fra erfaringer, gjenkjenne mønstre, forstå språk og ta beslutninger.',
+            data: 'Kunstig intelligens (KI) handler om å lage datamaskiner og programmer som kan utføre oppgaver som vanligvis krever menneskelig intelligens. Dette inkluderer å lære fra erfaringer, gjenkjenne mønstre, forstå språk og ta beslutninger.',
           },
           {
             type: 'faktaboks',
@@ -27,13 +27,13 @@ export const modules = [
           },
           {
             type: 'tekst',
-            data: 'I dag møter du AI daglig: når du skroller gjennom sosiale medier og får personaliserte innlegg, når du bruker søkemotorer som Google, når du bruker stemmeassistenter som Siri eller Google Assistant, og når du ser anbefalinger på Netflix eller Spotify.',
+            data: 'I dag møter du KI daglig: når du skroller gjennom sosiale medier og får personaliserte innlegg, når du bruker søkemotorer som Google, når du bruker stemmeassistenter som Siri eller Google Assistant, og når du ser anbefalinger på Netflix eller Spotify.',
           },
         ],
       },
       {
-        id: 'typer-ai',
-        tittel: 'Svak AI og Sterk AI',
+        id: 'typer-ki',
+        tittel: 'Svak KI og Sterk KI',
         innhold: [
           {
             type: 'tekst',
@@ -41,11 +41,11 @@ export const modules = [
           },
           {
             type: 'tekst',
-            data: '**Svak AI (Narrow AI)**: Dette er AI som er designet for å løse en spesifikk oppgave. Alle AI-systemer som finnes i dag er svak AI. Eksempler er ansiktsgjenkjenning, maskinoversettelse, sjakkdatamaskiner og chatbots. En svak AI kan være veldig god på sin spesifikke oppgave, men den kan ikke overføre kunnskapen til andre oppgaver.',
+            data: '**Svak KI (Narrow KI)**: Dette er KI som er designet for å løse en spesifikk oppgave. Alle KI-systemer som finnes i dag er svak KI. Eksempler er ansiktsgjenkjenning, maskinoversettelse, sjakkdatamaskiner og chatbots. En svak KI kan være veldig god på sin spesifikke oppgave, men den kan ikke overføre kunnskapen til andre oppgaver.',
           },
           {
             type: 'tekst',
-            data: '**Sterk AI (General AI eller AGI)**: Dette er hypotetisk AI som kunne utføre hvilket som helst intellektuelt arbeid som et menneske kan gjøre. Sterk AI finnes ennå ikke, men det er et mål for mye AI-forskning. En slik AI ville kunne læres opp på samme måte som mennesker og kunne generalisere kunnskapen til nye oppgaver.',
+            data: '**Sterk KI (General KI eller AGI)**: Dette er hypotetisk KI som kunne utføre hvilket som helst intellektuelt arbeid som et menneske kan gjøre. Sterk KI finnes ennå ikke, men det er et mål for mye KI-forskning. En slik KI ville kunne læres opp på samme måte som mennesker og kunne generalisere kunnskapen til nye oppgaver.',
           },
           {
             type: 'faktaboks',
@@ -152,15 +152,15 @@ export const modules = [
     ],
   },
   {
-    id: 'ai-medier',
-    tittel: 'AI i medier og kommunikasjon',
-    slug: 'ai-medier',
-    beskrivelse: 'Hvordan brukes AI innen media og kommunikasjon? Eksempler og implikasjoner.',
+    id: 'ki-medier',
+    tittel: 'KI i medier og kommunikasjon',
+    slug: 'ki-medier',
+    beskrivelse: 'Hvordan brukes KI innen media og kommunikasjon? Eksempler og implikasjoner.',
     estimertTid: '20 min',
     rekkefølge: 3,
     program: ['MK'],
     demoId: 'markov-text',
-    quizId: 'quiz-ai-medier',
+    quizId: 'quiz-ki-medier',
     seksjoner: [
       {
         id: 'ai-innhold',
@@ -228,15 +228,15 @@ export const modules = [
     ],
   },
   {
-    id: 'ai-it',
-    tittel: 'AI i IT og medieproduksjon',
-    slug: 'ai-it',
-    beskrivelse: 'Praktisk bruk av AI innen IT og medieproduksjon.',
+    id: 'ki-it',
+    tittel: 'KI i IT og medieproduksjon',
+    slug: 'ki-it',
+    beskrivelse: 'Praktisk bruk av KI innen IT og medieproduksjon.',
     estimertTid: '20 min',
     rekkefølge: 4,
     program: ['IM'],
     demoId: 'image-classifier',
-    quizId: 'quiz-ai-it',
+    quizId: 'quiz-ki-it',
     seksjoner: [
       {
         id: 'automatisering',
@@ -305,7 +305,7 @@ export const modules = [
   },
   {
     id: 'etikk-bias',
-    tittel: 'Etikk og bias i AI',
+    tittel: 'Etikk og bias i KI',
     slug: 'etikk-bias',
     beskrivelse: 'Moralske og etiske spørsmål rundt kunstig intelligens.',
     estimertTid: '25 min',

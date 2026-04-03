@@ -4,7 +4,7 @@ import { useLocalStorage } from '../hooks/useLocalStorage'
 const AppContext = createContext(null)
 
 export function AppProvider({ children }) {
-  const [elev, setElev] = useLocalStorage('ai-laering-elev', {
+  const [elev, setElev] = useLocalStorage('ki-laering-elev', {
     navn: '',
     program: null, // 'IM' | 'MK' | null
   })

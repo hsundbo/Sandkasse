@@ -20,7 +20,7 @@ function lagInitialProgress() {
 
 export function ProgressProvider({ children }) {
   const [progress, setProgress] = useLocalStorage(
-    'ai-laering-fremgang',
+    'ki-laering-fremgang',
     lagInitialProgress()
   )
 

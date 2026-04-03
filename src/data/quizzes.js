@@ -1,7 +1,7 @@
 export const quizzes = [
   {
-    id: 'quiz-hva-er-ai',
-    moduleId: 'hva-er-ai',
+    id: 'quiz-hva-er-ki',
+    moduleId: 'hva-er-ki',
     tittel: 'Quiz: Hva er kunstig intelligens?',
     bestaattGrense: 0.6,
     sporsmal: [
@@ -138,9 +138,9 @@ export const quizzes = [
     ],
   },
   {
-    id: 'quiz-ai-medier',
-    moduleId: 'ai-medier',
-    tittel: 'Quiz: AI i medier og kommunikasjon',
+    id: 'quiz-ki-medier',
+    moduleId: 'ki-medier',
+    tittel: 'Quiz: KI i medier og kommunikasjon',
     bestaattGrense: 0.6,
     sporsmal: [
       {
@@ -207,9 +207,9 @@ export const quizzes = [
     ],
   },
   {
-    id: 'quiz-ai-it',
-    moduleId: 'ai-it',
-    tittel: 'Quiz: AI i IT og medieproduksjon',
+    id: 'quiz-ki-it',
+    moduleId: 'ki-it',
+    tittel: 'Quiz: KI i IT og medieproduksjon',
     bestaattGrense: 0.6,
     sporsmal: [
       {

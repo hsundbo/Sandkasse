@@ -22,9 +22,9 @@ export function LandingPage() {
       <div className="max-w-4xl mx-auto px-4 py-16 flex flex-col items-center justify-center min-h-screen">
         <div className="text-center">
           <div className="text-6xl mb-4">🤖</div>
-          <h1 className="text-5xl font-bold mb-4">AI-lab</h1>
+          <h1 className="text-5xl font-bold mb-4">KI-lab</h1>
           <p className="text-xl text-brand-100 mb-8">
-            Lær om kunstig intelligens, maskinlæring og fremtiden med AI
+            Lær om kunstig intelligens, maskinlæring og fremtiden med KI
           </p>
 
           <div className="bg-white text-gray-900 rounded-lg shadow-xl p-8 max-w-md mx-auto">

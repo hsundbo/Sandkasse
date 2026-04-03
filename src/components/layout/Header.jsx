@@ -15,7 +15,7 @@ export function Header() {
             <Link to="/" className="flex items-center gap-2 hover:opacity-90 transition">
               <div className="text-2xl font-bold">🤖</div>
               <div>
-                <h1 className="text-xl font-bold">AI-lab</h1>
+                <h1 className="text-xl font-bold">KI-lab</h1>
                 <p className="text-xs text-brand-200">Lær om kunstig intelligens</p>
               </div>
             </Link>
